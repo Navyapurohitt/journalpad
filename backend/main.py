@@ -74,7 +74,7 @@ class PadMeta(BaseModel):
     created_at: datetime
 
 # ── App ───────────────────────────────────────────────────────────────────────
-app = FastAPI(title="WritingPad API", version="1.0.0")
+app = FastAPI(title="JournalPad API", version="1.0.0")
 
 app.add_middleware(
     CORSMiddleware,
