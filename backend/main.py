@@ -78,7 +78,8 @@ app = FastAPI(title="WritingPad API", version="1.0.0")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["https://journalpad.vercel.app"],
+
     allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
